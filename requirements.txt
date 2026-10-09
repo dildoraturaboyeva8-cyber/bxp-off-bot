@@ -1,0 +1,10 @@
+pyTelegramBotAPI
+Telethon
+google-generativeai
+Flask
+qrcode
+Pillow
+requests
+urllib3
+pydantic
+cryptography
