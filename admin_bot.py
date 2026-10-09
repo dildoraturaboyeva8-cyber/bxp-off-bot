@@ -4,7 +4,7 @@ import subprocess
 import os
 import threading
 
-TOKEN = "8646755585:AAHeMVjYA7WfK2WQCzPmljTLjbb5IpvsPbo"
+TOKEN = "8646755585:AAEbmHQW4919nlO0y6mOb69gChMuyAX_e0w"
 
 ADMIN_FILE = "admin_id.txt"
 
