@@ -1,8 +1,8 @@
 import os
 import google.generativeai as genai
 
-# Gemini API kalitini o'rnatamiz
-GEMINI_API_KEY = "AQ.Ab8RN6I8SxtqQZbn2Ywg53aWRK4J9NkYO_16fuLKIiQa8ZKTTA"
+import os
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Gemini Flash Lite - kuniga eng ko'p tekin xabarga ruxsat beruvchi model
